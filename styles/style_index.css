@@ -1,0 +1,73 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .background {
+    background-image: url('../imgs/fondo01.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #question {
+    font-size: 4em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .background h2 {
+    color: white;
+  }
+
+  #timer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    margin: auto;
+  }
+
+
+  /* Contenedor central */
+.container {
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Arial', sans-serif; 
+}
+
+/* Botón estilo dibujos animados */
+.cartoon-button {
+  background-color: #ffd700; /* Color amarillo vibrante */
+  color: #000; /* Texto en negro */
+  font-size: 1.5rem; /* Tamaño del texto */
+  font-weight: bold; /* Texto negrita */
+  border: 4px solid #000; /* Borde grueso negro */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 15px 30px; /* Espaciado interno */
+  text-shadow: 2px 2px #ff6347; /* Sombra de texto para estilo 3D */
+  box-shadow: 5px 5px 0px #000; /* Sombra gruesa para estilo de caricatura */
+  cursor: pointer; /* Cursor de mano al pasar por encima */
+  transition: transform 0.2s, box-shadow 0.2s; /* Animaciones */
+  margin-bottom: 50px;
+}
+
+/* Efecto hover */
+.cartoon-button:hover {
+  transform: translate(-3px, -3px); /* Mueve el botón ligeramente hacia arriba e izquierda */
+  box-shadow: 8px 8px 0px #000; /* Sombra más pronunciada */
+}
+
+/* Efecto active */
+.cartoon-button:active {
+  transform: translate(3px, 3px); /* Mueve el botón hacia abajo y derecha */
+  box-shadow: 2px 2px 0px #000; /* Sombra más sutil */
+}
