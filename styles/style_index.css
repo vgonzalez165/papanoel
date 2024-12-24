@@ -23,6 +23,15 @@ body, html {
     font-size: 4em;
     color: white;
     text-shadow: 5px 5px 5px black;
+    height: 20vh;
+  }
+
+  h2 {
+    height: 30vh;
+  }
+
+  #container {
+    height: 30vh;
   }
 
   .background h2 {
@@ -35,17 +44,19 @@ body, html {
     text-shadow: 5px 5px 5px black;
     color: white;
     margin: auto;
+    height: 20vh;
   }
 
 
   /* Contenedor central */
-.container {
+#container {
   text-align: center;
   font-family: 'Comic Sans MS', 'Arial', sans-serif; 
+  display: none;
 }
 
 /* Botón estilo dibujos animados */
-.cartoon-button {
+#button {
   background-color: #ffd700; /* Color amarillo vibrante */
   color: #000; /* Texto en negro */
   font-size: 1.5rem; /* Tamaño del texto */
@@ -61,13 +72,13 @@ body, html {
 }
 
 /* Efecto hover */
-.cartoon-button:hover {
+#button:hover {
   transform: translate(-3px, -3px); /* Mueve el botón ligeramente hacia arriba e izquierda */
   box-shadow: 8px 8px 0px #000; /* Sombra más pronunciada */
 }
 
 /* Efecto active */
-.cartoon-button:active {
+#button:active {
   transform: translate(3px, 3px); /* Mueve el botón hacia abajo y derecha */
   box-shadow: 2px 2px 0px #000; /* Sombra más sutil */
 }
