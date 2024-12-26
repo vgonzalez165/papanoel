@@ -1,0 +1,72 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Imagen superior */
+  .top-image {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 40%; /* Imagen no ocupará más del 40% de la pantalla */
+  }
+  
+  /* Contenedor del contenido */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Distribución uniforme entre los elementos */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 10px; /* Espaciado interno opcional */
+  }
+  
+  /* Elementos individuales */
+  .element {
+    width: 90%; /* Anchura de cada elemento ajustable */
+    max-width: 400px; /* Máximo ancho en pantallas más grandes */
+    padding: 15px;
+    text-align: center;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    border: 2px solid #ccc; /* Borde opcional */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+
+
+
+  #timer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 2px white;
+  }
+
+  #msg {
+    font-size: 2em;
+    background-color:greenyellow;
+  }
+
+  #next {
+    font-size: 1.5em;
+    background-color: rgb(233, 255, 233);
+  }

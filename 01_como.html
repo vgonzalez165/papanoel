@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papá Noel</title>
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/como.css">
+    <link rel="stylesheet" href="styles/boton.css">
 </head>
 <body>
-    <div class="background">
-        <h1 id="question">¿Cómo?</h1>
-        <h2>Aún tienes que esperar...</h2>
-        <h3 id="timer"></h3>
-        
-        <div id="container">
-            <button class="cartoon-button">¡Haz clic aquí!</button>
+
+    <div class="container">
+        <img src="imgs/como.jpg" alt="Bugs Bunny" class="top-image">
+        <div class="content">
+          <div class="element" id="msg">La primera pista la tienes detrás de la tele.</div>
+          <div class="element" id="next">Para saber CUANDO tienes que volver a esperar...</div>
+          <h3 class="element" id="timer"></h3>
+          <div id="container-button">
+                <a href="02_cuando.html">
+                    <button id="button">¡Haz clic aquí!</button>
+                </a>
+          </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+      </div>
+
+   <script src="scripts/como.js"></script>
 </body>
 </html>

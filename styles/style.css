@@ -1,0 +1,47 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .background {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #question {
+    font-size: 4em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    height: 20vh;
+  }
+
+  h2 {
+    height: 30vh;
+  }
+
+  #container {
+    height: 30vh;
+  }
+
+  .background h2 {
+    color: white;
+  }
+
+  #timer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+    margin: auto;
+    height: 20vh;
+  }
+
