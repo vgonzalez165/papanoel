@@ -1,4 +1,4 @@
-const targetDate = new Date("2024-12-28T16:00:00");
+const targetDate = new Date("2024-12-30T16:00:00");
 // const targetDate = new Date("2024-12-24T18:11:00");
 
 const interval = setInterval(() => {

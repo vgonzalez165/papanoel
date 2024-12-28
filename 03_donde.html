@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papá Noel</title>
-    <link rel="stylesheet" href="styles/style_index.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/donde.css">
+    <link rel="stylesheet" href="styles/boton.css">
 </head>
 <body>
-    <div class="background">
-        <h1 id="question">¿Cómo?</h1>
-        <h2>Aún tienes que esperar...</h2>
-        <h3 id="timer"></h3>
-        
-        <div id="container">
-            <button id="button"><a href="./01_como.html">¡Haz clic aquí!</a></button>
+
+    <div class="container">
+        <img src="imgs/donde.jpg" alt="Yosemite" class="top-image">
+        <div class="content">
+          <div class="element" id="msg">La tercera pista la tienes en tu mesa del salón.</div>
+          <div class="element" id="next">Aún te falta la última pista, pero tendrás que esperar...</div>
+          <h3 class="element" id="timer"></h3>
+          <div id="container-button">
+            <a href="04_entradas.html">
+              <button id="button">¡Haz clic aquí!</button>
+            </a>
+          </div>
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+      </div>
+
+      <script src="scripts/donde.js"></script>
+    </body>
+    </html>

@@ -1,4 +1,4 @@
-const targetDate = new Date("2024-12-28T16:00:00");
+const targetDate = new Date("2025-01-02T08:00:00");
 // const targetDate = new Date("2024-12-24T18:11:00");
 
 const interval = setInterval(() => {
@@ -18,6 +18,6 @@ const interval = setInterval(() => {
     } else {
     // Detiene el cronómetro cuando el tiempo se agota
     clearInterval(interval);
-    document.getElementById("container-button").style.display = "block";
+    document.getElementById("container").style.display = "block";
     }
 }, 1000);
